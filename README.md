@@ -9,4 +9,4 @@ Please run "demo_1_hetRandomWalk.m" that takes in a cell centroid file from Imar
 
 2) "Semi-unsupervised identification of heterogenous sub-populations in migrating T-cells"
 
-Once the step 1 output is saved from all the cells to be included in the clustering, run "demo_2_clustering.m". This scripts reads output of all cells from step 1 and performs K-means clustering. Change K-value as required. 
+Once the step 1 output is saved from all the cells to be included in the clustering, run "demo_2_clustering.m". This scripts reads output of all cells from step 1 and performs K-means clustering. Change K-value as required using mean silhouette score.

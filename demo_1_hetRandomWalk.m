@@ -1,9 +1,8 @@
-% Demo script to fit AR1 parameters to individual cells and K-mean
-% clustering on cell-averaged parameters
-
+% Demo script to fit AR1 parameters to individual cells 
 % CD to the directory of this script
 
 clearvars;
+restoredefaultpath;
 addpath(genpath(cd));
 
 % Path to Imaris centroid tracking file
